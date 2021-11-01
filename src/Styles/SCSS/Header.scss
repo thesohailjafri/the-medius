@@ -1,0 +1,51 @@
+.header {
+	padding: 14px 24px 14px 0;
+	background-color: #f4f6f8;
+	h1 {
+		margin: 0 10px 0 0;
+	}
+	small {
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		color: #727272;
+		padding-top: 9px;
+	}
+}
+.header-left {
+	padding-left: 35px;
+}
+.header-right {
+	.right-hmenu {
+		margin: 0 36px 0 0;
+	}
+	.dropdown {
+		.btn {
+			background-color: transparent;
+			border-color: transparent;
+			padding: 0;
+			&:active{
+				background-color: transparent;
+				border-color: transparent;
+			}
+		}
+	}
+	.dropdown-toggle {
+		&::after {
+			display: none;
+		}
+	}
+	.dropdown-menu {
+		padding: 10px 0px;
+		top: 15px !important;
+		border: solid 2px #009ec0;
+	}
+}
+@media (max-width: 768px) {
+	header {
+		flex-wrap: wrap;
+	}
+}

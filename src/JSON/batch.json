@@ -1,0 +1,187 @@
+{
+	"status": true,
+	"message": "Batch data fetched successfully.",
+	"total": 4,
+	"current_page": 1,
+	"next": null,
+	"previous": null,
+	"data": [
+		{
+			"id": 22,
+			"client": {
+				"client_id": 1,
+				"client_name": "Demo Bank Of India"
+			},
+			"batch_name": "April-21 B-2-2 (1) (1).xlsx",
+			"batch_id": 4,
+			"batch_status": "new",
+			"total_account": 1811,
+			"total_connected": 100,
+			"total_ptp": 0,
+			"total_broken_ptp": 0,
+			"total_paid": 0,
+			"total_amount": null,
+			"agent_count": 1,
+			"raw_file": "https://api.themedius.ai/media/batch_files/April-21_B-2-2_1_1.xlsx",
+			"parquet_file": "s3://themedius.ai/batch_data/client_id=1/year=2021/month=9/8efbe9379465436c874b1a2b4cbf242c.snappy.parquet",
+			"latest_updated_file": null,
+			"uploaded_date": "2021-09-17",
+			"statics_data": [
+				{
+					"total": {
+						"accounts": 990,
+						"amount": 121814674,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"none": {
+						"accounts": 990,
+						"amount": 121814674,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					}
+				}
+			]
+		},
+		{
+			"id": 21,
+			"client": {
+				"client_id": 1,
+				"client_name": "Demo Bank Of India"
+			},
+			"batch_name": "July Data.xlsx",
+			"batch_id": 3,
+			"batch_status": "new",
+			"total_account": 5,
+			"total_connected": 100,
+			"total_ptp": 0,
+			"total_broken_ptp": 0,
+			"total_paid": 0,
+			"total_amount": null,
+			"agent_count": 1,
+			"raw_file": "https://api.themedius.ai/media/batch_files/July_Data_apHUDC0.xlsx",
+			"parquet_file": "s3://themedius.ai/batch_data/client_id=1/year=2021/month=9/823bac4e3451492d85c5ef1fe32ddf3f.snappy.parquet",
+			"latest_updated_file": null,
+			"uploaded_date": "2021-09-16",
+			"statics_data": [
+				{
+					"total": {
+						"accounts": 5,
+						"amount": 777200,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"car": {
+						"accounts": 3,
+						"amount": 705500,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"bike": {
+						"accounts": 2,
+						"amount": 71700,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					}
+				}
+			]
+		},
+		{
+			"id": 20,
+			"client": {
+				"client_id": 1,
+				"client_name": "Demo Bank Of India"
+			},
+			"batch_name": "July Data.xlsx",
+			"batch_id": 2,
+			"batch_status": "new",
+			"total_account": 5,
+			"total_connected": 100,
+			"total_ptp": 0,
+			"total_broken_ptp": 0,
+			"total_paid": 0,
+			"total_amount": null,
+			"agent_count": 1,
+			"raw_file": "https://api.themedius.ai/media/batch_files/July_Data_Yd4N6ES.xlsx",
+			"parquet_file": "s3://themedius.ai/batch_data/client_id=1/year=2021/month=9/25049167407c4a7f9e47fd2f4c1e8e60.snappy.parquet",
+			"latest_updated_file": null,
+			"uploaded_date": "2021-09-16",
+			"statics_data": [
+				{
+					"total": {
+						"accounts": 5,
+						"amount": 777200,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"car": {
+						"accounts": 3,
+						"amount": 705500,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"bike": {
+						"accounts": 2,
+						"amount": 71700,
+						"ptp": 0,
+						"broken_ptp": 0,
+						"paid": 0
+					}
+				}
+			]
+		},
+		{
+			"id": 19,
+			"client": {
+				"client_id": 1,
+				"client_name": "Demo Bank Of India"
+			},
+			"batch_name": "golden_batch_file.xlsx",
+			"batch_id": 1,
+			"batch_status": "new",
+			"total_account": 11,
+			"total_connected": 100,
+			"total_ptp": 0,
+			"total_broken_ptp": 0,
+			"total_paid": 0,
+			"total_amount": null,
+			"agent_count": 1,
+			"raw_file": "https://api.themedius.ai/media/batch_files/golden_batch_file_iLf6kML.xlsx",
+			"parquet_file": "s3://themedius.ai/batch_data/client_id=1/year=2021/month=9/a218bbedcb27410fb56bf22f8bc1d67a.snappy.parquet",
+			"latest_updated_file": null,
+			"uploaded_date": "2021-09-16",
+			"statics_data": [
+				{
+					"total": {
+						"accounts": 11,
+						"amount": 1440300,
+						"ptp": 7,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"car": {
+						"accounts": 8,
+						"amount": 1330500,
+						"ptp": 5,
+						"broken_ptp": 0,
+						"paid": 0
+					},
+					"bike": {
+						"accounts": 3,
+						"amount": 109800,
+						"ptp": 2,
+						"broken_ptp": 0,
+						"paid": 0
+					}
+				}
+			]
+		}
+	]
+}

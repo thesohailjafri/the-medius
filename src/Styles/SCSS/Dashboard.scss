@@ -1,0 +1,247 @@
+@-webkit-keyframes blink {
+	0%, 100% { opacity: 0; }
+	50% { opacity: 1; }
+}
+@-moz-keyframes blink {
+	0%, 100% { opacity: 0; }
+	50% { opacity: 1; }
+}
+@-o-keyframes blink {
+	0%, 100% { opacity: 0; }
+	50% { opacity: 1; }
+}
+@keyframes blink {
+	0%, 100% { opacity: 0; }
+	50% { opacity: 1; }
+}
+.dashboard-status{
+	h3{
+		font-weight: bold;
+		font-size: 30px;
+	}
+	p{
+		color: #727272;
+	}
+}
+.admin-dashboard-status{
+	h3{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	p{
+		color: #727272;
+	}
+}
+.dashboard-content{
+	.collections-chart{
+		span{
+			margin: 0 10px;
+		}		
+	}
+	.btn-group{
+		.btn{
+			font-size: 12px;
+			background-color: #ffffff;
+			padding: 6px 7px;
+			line-height: 1;
+			&.btn-secondary{
+				border: 1px solid #eaeaea;
+				color: #999999;
+			}
+			&.active{
+				border: 1px solid #d5f6ef;
+				color: #1c716a;
+				font-weight: bold;
+				background-color: #d5f6ef;
+			}
+		}
+	}
+	.dropdown-toggle{
+		font-size: 12px;
+		color: #000000 !important;
+		margin-bottom: 0;
+		padding: 0;
+	}		
+	.disposition-box{
+		text{
+			font-size: 8px !important;
+			color: #999999;
+		}
+	}
+	.live-feed{
+		
+		h2{
+			svg{
+				-webkit-animation: blink 1s infinite;
+				-moz-animation: blink 1s infinite;
+				-o-animation: blink 1s infinite;
+				animation: blink 1s infinite;
+			}
+		}
+		.live-feed-row{
+			margin-bottom: 1.4rem;
+			p{
+				color: #505050;
+				line-height: 1.5;
+				small{
+					color: #727272;
+				}
+			}	
+		}		
+	}
+}
+.admin-dashboard{
+	.dispo-table-detail{
+		.border-box{
+			border: 1px solid #eaeaea;
+			border-radius: 8px;
+			padding: 10px 15px;
+			table{
+				tr{
+					td{
+						padding: 4px 0;
+					}
+				}
+			}
+		}
+		.progress-table{
+			height: 285px;
+			overflow-y: auto;
+			table{
+				tr{
+					&:nth-of-type(odd){
+						background-color: #ffffff;
+						--bs-table-accent-bg:#ffffff;
+					}
+					&:nth-of-type(even){
+						background-color: #f4f6f8;
+					}
+					td{
+						position: relative;
+						padding: 17px 0 17px 0;
+						.table-prog{
+							position: absolute;
+							bottom: 0;
+							width: 100%;
+							.progress{
+								height: 3px;
+								border-radius: 0;
+								background-color: transparent;
+								overflow: visible;
+								.progress-bar{
+									background-color: #00bf9d;
+									position: relative;
+									overflow: visible;
+									&:after{
+										position: absolute;
+										right: 0;
+										bottom: 0;
+										background-color: transparent;
+										content: "";
+										width: 10px;
+										height: 10px;
+										border-style: solid;
+										border-width: 0 0 9px 9px;
+										border-color: transparent transparent #00bf9d transparent;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.dispo-listing{
+		h2{
+			font-size: 18px;
+			margin-bottom: 30px;
+		}
+		table{
+			tr{
+				&:nth-of-type(odd){
+					background-color: #ffffff;
+					--bs-table-accent-bg:#ffffff;
+				}
+				&:nth-of-type(even){
+					background-color: #f4f6f8;
+				}				
+				th{
+					padding-bottom: 13px;
+					strong{
+						color: #505050;
+						font-weight: 700;
+					}
+					.dropdown-toggle{
+						margin-top: 7px;
+					}
+				}
+				td{
+					padding: 28px 10px;
+					vertical-align: middle;
+					color: #000000;
+					.tooltip-btn{
+						padding: 0;
+						border: 0;
+						background: none;
+						margin: -3px 0 0 5px;
+						svg{
+							margin: 0;
+						}
+					}
+					.badge{
+						border-radius: 20px;
+						font-size: 12px;
+						font-weight: normal;
+						text-transform: uppercase;
+						line-height: 1;
+						padding: 2px 2px 0 5px;
+						.icon-holder{
+							height: 20px;
+							width: 20px;
+							background-color: #ffffff;
+							border-radius: 20px;
+							line-height: 1.5;
+							text-align: center;
+							margin-left: 5px;
+						}
+						&.badge-color-1{
+							background-color: #00cbd1 !important;
+						}
+						&.badge-color-2{
+							background-color: #00a2a8 !important;
+						}
+						&.badge-color-3{
+							background-color: #093638 !important;
+						}
+						&.badge-color-4{
+							background-color: #00797d !important;
+						}						
+					}
+					.time-badge{
+						background-color: #b2f1e4;
+						border-radius: 4px;
+						display: inline-block;
+						padding: 0px 4px;
+					}
+				}
+			}
+		}
+		.dropdown-menu{
+			width: 206px;
+			.form-control{
+				padding: 0.500rem 0.75rem;
+			}
+			.form-select{
+				padding: 0.500rem 0.75rem;
+			}
+			.btn-link{
+				color: #009ec0;
+				text-decoration: none;
+				font-size: 12px;
+				font-weight: normal;
+				padding: 0.075rem 1.55rem;
+			}
+		}
+	}
+}

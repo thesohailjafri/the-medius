@@ -1,0 +1,23 @@
+[{
+    "id": 1,
+    "loan_account_no": "131313",
+    "agency_name": "The Medius",
+    "batch_id": 1,
+    "product_name": "car",
+    "due_agmt_no": "ASFGTY",
+    "customer_name": "Shivam jatav",
+    "mobile_number": "8423050982",
+    "contact_date": "2021-09-12",
+    "due_amount": 5000.0,
+    "disposition": "ptp",
+    "remark": "testing",
+    "ptp_date": "2021-09-13",
+    "ptp_amount": 5000.0,
+    "next_action": null,
+    "payment_mode": null,
+    "paid_amount": 0.0,
+    "paid_date": null,
+    "channel": "whatsapp",
+    "created_at": "2021-09-12",
+    "updated_at": "2021-09-12"
+}]

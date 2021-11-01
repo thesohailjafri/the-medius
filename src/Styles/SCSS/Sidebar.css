@@ -1,0 +1,291 @@
+.sidebar {
+  width: 178px;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #f4f6f8;
+  position: fixed;
+  height: 100%;
+  z-index: 998;
+}
+
+.sidebar .logo {
+  padding: 24px 16px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 13px;
+  height: 70px;
+}
+
+.sidebar .logo a {
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar .logo a img {
+  width: 127px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: inline-block;
+}
+
+.sidebar .admin-tag {
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  max-width: 102px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sidebar .admin-tag::after {
+  position: absolute;
+  content: "";
+  top: 8px;
+  right: 0;
+  height: 1px;
+  background-color: #979797;
+  width: 26px;
+}
+
+.sidebar .admin-tag::before {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  height: 1px;
+  background-color: #979797;
+  width: 26px;
+}
+
+.sidebar .menu ul li {
+  width: 100%;
+}
+
+.sidebar .menu ul li a {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #505050;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .6rem 1rem;
+}
+
+.sidebar .menu ul li a:hover {
+  font-weight: bold;
+  color: #000;
+}
+
+.sidebar .menu ul li a:hover .m-icon path {
+  fill: #000000;
+}
+
+.sidebar .menu ul li li.active a {
+  font-weight: bold;
+  color: #000;
+}
+
+.sidebar .menu ul li .accordion-button {
+  padding: 0;
+  background: none;
+}
+
+.sidebar .menu ul li .accordion-button::after {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 8px;
+  opacity: 0.5;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: absolute;
+  right: 0;
+}
+
+.sidebar .menu ul li .accordion-item {
+  border: 0;
+  background: none;
+}
+
+.sidebar .menu ul li .accordion-item.no-submenu .accordion-button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sidebar .menu ul li .accordion-item.no-submenu .accordion-button::after {
+  display: none;
+}
+
+.sidebar .menu ul li .accordion-body {
+  padding: 10px 0 0px 0;
+  -webkit-box-shadow: inset 2px 0 5px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: inset 2px 0 5px 2px rgba(0, 0, 0, 0.12);
+  background-color: #e3e3e3;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 15px;
+}
+
+.sidebar .menu ul li .accordion-body .sidebar_submenu {
+  padding-bottom: 15px;
+}
+
+.sidebar .menu ul li .accordion-body .accordion-body {
+  background-color: #d0d0d0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 0;
+}
+
+.sidebar .menu ul li .nav-sap hr {
+  background: #dddddd;
+  opacity: 1;
+  margin-left: 48px;
+}
+
+.sidebar .menu ul li.active .accordion-button a {
+  font-weight: bold;
+  color: #000;
+}
+
+.sidebar .menu ul li.active .accordion-collapse {
+  display: block !important;
+}
+
+.sidebar .menu ul li.active .accordion-collapse .accordion-collapse.collapse {
+  display: none !important;
+}
+
+.sidebar .menu ul li.active .accordion-collapse .accordion-collapse.collapse.show {
+  display: block !important;
+}
+
+.sidebar .menu ul li.active a .m-icon path {
+  fill: #000000;
+}
+
+.sidebar .m-icon {
+  width: 39px;
+  float: left;
+  height: 22px;
+}
+
+.sidebar .menu-text {
+  line-height: 1.7;
+  white-space: nowrap;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-hide .logo a img {
+  width: 88px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: inline-block;
+  max-width: none;
+}
+
+.sidebar-hide.sidebar {
+  width: 62px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-hide.sidebar .logo a {
+  display: inline-block;
+  width: 31px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-hide.sidebar .menu ul li .accordion-button::after {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: none;
+}
+
+.sidebar-hide.sidebar .menu ul li a .menu-text {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.menu-toggle {
+  margin: 0 16px 0 0;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: -44px;
+  padding: 10px 10px 10px 0px;
+  background: #f4f6f8;
+  z-index: 9854685487512;
+  float: left;
+  border-radius: 0 6px 6px 0;
+}
+
+.content-full.content {
+  width: calc(100% - 62px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-left: 62px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 62px;
+  }
+  .sidebar .menu ul li a .menu-text {
+    opacity: 0;
+  }
+  .sidebar .menu ul li .accordion-button::after {
+    display: none;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .sidebar .logo a {
+    width: 35px;
+    overflow: hidden;
+  }
+  .sidebar .logo a img {
+    display: inline-block;
+    width: 103px;
+    overflow: hidden;
+    max-width: none;
+  }
+  .sidebar-hide.sidebar {
+    width: 178px;
+    -webkit-box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+  }
+  .sidebar-hide.sidebar .menu ul li .accordion-button::after {
+    display: inline-block;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  .sidebar-hide.sidebar .menu ul li a .menu-text {
+    opacity: 1;
+  }
+  .sidebar-hide.sidebar .logo a {
+    display: inline-block;
+    width: 32px;
+    overflow: inherit;
+  }
+  .sidebar-hide .menu-toggle {
+    -webkit-box-shadow: 15px 4px 13px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 15px 4px 13px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 5px 5px 0;
+  }
+}
+/*# sourceMappingURL=Sidebar.css.map */

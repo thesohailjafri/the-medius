@@ -1,0 +1,293 @@
+.al-popup {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #fff;
+  padding: 25px 15px;
+  width: 345px;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-box-shadow: 0 2px 11px 7px rgba(0, 0, 0, 0.21);
+          box-shadow: 0 2px 11px 7px rgba(0, 0, 0, 0.21);
+  z-index: 998;
+  overflow: auto;
+}
+
+.al-popup .progress {
+  height: 5px;
+}
+
+.al-popup h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.11px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.al-popup .add-case {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #e7e7e7;
+  height: 263px;
+  left: 0;
+}
+
+.al-popup.al-grey {
+  background-color: #f5f6f8;
+}
+
+.popup-white {
+  background-color: #ffffff;
+  padding: 25px 15px;
+  margin: -25px -15px 0px -15px;
+}
+
+.al-close {
+  z-index: 1057;
+  position: absolute;
+  top: 27px;
+  right: 13px;
+  height: 23px;
+  width: 23px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.al-head h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.11px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.sms-data {
+  background: #f4f6f8;
+  border-radius: 28px 0 0 0;
+  padding: 16px;
+  letter-spacing: -0.86px;
+  margin-bottom: 19px;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}
+
+.account_extra_call .account_extra_call_audio {
+  margin: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+}
+
+.account_extra_call .account_extra_call_audio .account_extra_call_audio_div {
+  font-size: 12px;
+}
+
+.account_extra_call .account_extra_call_audio .account_extra_call_audio_div::before {
+  content: "00:00";
+  position: absolute;
+  margin-top: 15px;
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+}
+
+.account_extra_call .account_extra_call_audio .account_extra_call_audio_div::after {
+  content: "02:00";
+  position: absolute;
+  margin-top: 15px;
+  -webkit-transform: translate(-100%, 150%);
+  transform: translate(-100%, 150%);
+}
+
+.account_extra_sms .account_extra_sms_text {
+  background-color: #f4f6f8;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 25px 0 0 0;
+}
+
+.account_extra_whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.account_extra_whatsapp .account_extra_whatsapp_owner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin-bottom: 1rem;
+  margin-left: auto;
+}
+
+.account_extra_whatsapp .account_extra_whatsapp_owner span {
+  margin-left: auto;
+}
+
+.account_extra_whatsapp .account_extra_whatsapp_owner .account_extra_whatsapp_text {
+  border: 15px solid #dff9ca;
+  border-radius: 15px 0px 15px 15px;
+  background-color: #dff9ca;
+}
+
+.account_extra_whatsapp .account_extra_whatsapp_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.account_extra_whatsapp .account_extra_whatsapp_user .account_extra_whatsapp_text {
+  border: 15px solid #f4f6f8;
+  border-radius: 0px 15px 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f4f6f8;
+}
+
+.account_extra_dispositions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.account_extra_dispositions .accordion-button {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px dashed #dddddd;
+}
+
+.account_extra_dispositions .accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.account_extra_dispositions .disposition-row {
+  padding: 1rem 0;
+  border: none;
+  width: 100%;
+}
+
+.account_extra_dispositions .accordion-item {
+  border: none;
+}
+
+.account_extra_dispositions .accordion-body {
+  background-color: #dddddd;
+}
+
+.account-tab-main {
+  -webkit-box-shadow: 0px 0 10px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0 10px 4px rgba(0, 0, 0, 0.05);
+}
+
+.account-tab .nav-link {
+  color: #828282;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #ededed;
+  border-radius: 0;
+  border-right: 1px solid #dddddd;
+  padding: .8rem 1.5rem;
+}
+
+.account-tab li:last-child .nav-link {
+  border-right: 0;
+}
+
+.account-tab li:last-child .nav-link.active {
+  border-right: 1px solid #dddddd;
+}
+
+.account-tab .nav-link.active {
+  color: #0a7aff;
+  background-color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.account-tab-left .nav-link {
+  color: #828282;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f7f7fc;
+  border-radius: 0;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-left: 5px solid #f7f7fc;
+  padding: 1.3rem .8rem;
+}
+
+.account-tab-left .nav-link.active {
+  border-right: 1px solid transparent;
+  background-color: transparent;
+  color: #000000;
+  border-left: 5px solid #0a7aff;
+}
+
+.account-tab-right .tab-content {
+  padding: 65px 104px;
+}
+
+@media (max-width: 768px) {
+  .account-tab-right .tab-content {
+    padding: 25px 24px;
+  }
+}
+/*# sourceMappingURL=AccountExtra.css.map */

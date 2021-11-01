@@ -1,0 +1,98 @@
+
+.filter-section {
+	.btn-secondary {
+		padding: .675rem .85rem;
+		height: 42px;
+		width: auto;
+		margin-left: 15px;
+		+ {
+			.btn-secondary {
+				margin-left: 0;
+			}
+		}
+	}
+	.bulk-action {
+		width: 283px;
+		display: inline-block;
+	}
+}
+.mainheader {
+	margin-bottom: 24px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	svg {
+		height: 20px;
+		width: auto;
+	}
+	.mainheader_leftbtns {
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		-webkit-column-gap: 16px;
+		column-gap: 16px;
+		margin: 0 18px;
+		button {
+			background-color: #f4f6f8;
+			border: 1px solid #dddddd;
+			padding: 12px;
+			border-radius: 4px;
+			display: -webkit-inline-box;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-column-gap: 12px;
+			column-gap: 12px;
+			font-size: 15px;
+		}
+	}
+	.mainheader_rightbtns {
+		display: -webkit-inline-box;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		-webkit-column-gap: 16px;
+		column-gap: 16px;
+		margin-left: auto;
+		margin-right: 0;
+		.mainheader_rightbtns_black {
+			background-color: #009ec0;
+			border: 2px solid #009ec0;
+			padding: 12px;
+			border-radius: 4px;
+			display: -webkit-inline-box;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-column-gap: 12px;
+			column-gap: 12px;
+			font-size: 15px;
+			font-weight: 700;
+			color: #ffffff;
+			option {
+				background-color: #fff;
+				color: black;
+			}
+		}
+		.mainheader_rightbtns_white {
+			background-color: #ffffff;
+			border: 2px solid #009ec0;
+			padding: 12px;
+			border-radius: 4px;
+			display: -webkit-inline-box;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			-webkit-column-gap: 12px;
+			column-gap: 12px;
+			font-size: 15px;
+			font-weight: 700;
+			color: #000000;
+		}
+	}
+}

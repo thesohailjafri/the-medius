@@ -1,0 +1,256 @@
+@-webkit-keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.dashboard-status h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.dashboard-status p {
+  color: #727272;
+}
+
+.admin-dashboard-status h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.admin-dashboard-status p {
+  color: #727272;
+}
+
+.dashboard-content .collections-chart span {
+  margin: 0 10px;
+}
+
+.dashboard-content .btn-group .btn {
+  font-size: 12px;
+  background-color: #ffffff;
+  padding: 6px 7px;
+  line-height: 1;
+}
+
+.dashboard-content .btn-group .btn.btn-secondary {
+  border: 1px solid #eaeaea;
+  color: #999999;
+}
+
+.dashboard-content .btn-group .btn.active {
+  border: 1px solid #d5f6ef;
+  color: #1c716a;
+  font-weight: bold;
+  background-color: #d5f6ef;
+}
+
+.dashboard-content .dropdown-toggle {
+  font-size: 12px;
+  color: #000000 !important;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.dashboard-content .disposition-box text {
+  font-size: 8px !important;
+  color: #999999;
+}
+
+.dashboard-content .live-feed h2 svg {
+  -webkit-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+
+.dashboard-content .live-feed .live-feed-row {
+  margin-bottom: 1.4rem;
+}
+
+.dashboard-content .live-feed .live-feed-row p {
+  color: #505050;
+  line-height: 1.5;
+}
+
+.dashboard-content .live-feed .live-feed-row p small {
+  color: #727272;
+}
+
+.admin-dashboard .dispo-table-detail .border-box {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.admin-dashboard .dispo-table-detail .border-box table tr td {
+  padding: 4px 0;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table {
+  height: 285px;
+  overflow-y: auto;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr:nth-of-type(odd) {
+  background-color: #ffffff;
+  --bs-table-accent-bg:#ffffff;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr:nth-of-type(even) {
+  background-color: #f4f6f8;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr td {
+  position: relative;
+  padding: 17px 0 17px 0;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr td .table-prog {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr td .table-prog .progress {
+  height: 3px;
+  border-radius: 0;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr td .table-prog .progress .progress-bar {
+  background-color: #00bf9d;
+  position: relative;
+  overflow: visible;
+}
+
+.admin-dashboard .dispo-table-detail .progress-table table tr td .table-prog .progress .progress-bar:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 0 0 9px 9px;
+  border-color: transparent transparent #00bf9d transparent;
+}
+
+.admin-dashboard .dispo-listing h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.admin-dashboard .dispo-listing table tr:nth-of-type(odd) {
+  background-color: #ffffff;
+  --bs-table-accent-bg:#ffffff;
+}
+
+.admin-dashboard .dispo-listing table tr:nth-of-type(even) {
+  background-color: #f4f6f8;
+}
+
+.admin-dashboard .dispo-listing table tr th {
+  padding-bottom: 13px;
+}
+
+.admin-dashboard .dispo-listing table tr th strong {
+  color: #505050;
+  font-weight: 700;
+}
+
+.admin-dashboard .dispo-listing table tr th .dropdown-toggle {
+  margin-top: 7px;
+}
+
+.admin-dashboard .dispo-listing table tr td {
+  padding: 28px 10px;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.admin-dashboard .dispo-listing table tr td .tooltip-btn {
+  padding: 0;
+  border: 0;
+  background: none;
+  margin: -3px 0 0 5px;
+}
+
+.admin-dashboard .dispo-listing table tr td .tooltip-btn svg {
+  margin: 0;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge {
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 2px 2px 0 5px;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge .icon-holder {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge.badge-color-1 {
+  background-color: #00cbd1 !important;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge.badge-color-2 {
+  background-color: #00a2a8 !important;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge.badge-color-3 {
+  background-color: #093638 !important;
+}
+
+.admin-dashboard .dispo-listing table tr td .badge.badge-color-4 {
+  background-color: #00797d !important;
+}
+
+.admin-dashboard .dispo-listing table tr td .time-badge {
+  background-color: #b2f1e4;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.admin-dashboard .dispo-listing .dropdown-menu {
+  width: 206px;
+}
+
+.admin-dashboard .dispo-listing .dropdown-menu .form-control {
+  padding: 0.500rem 0.75rem;
+}
+
+.admin-dashboard .dispo-listing .dropdown-menu .form-select {
+  padding: 0.500rem 0.75rem;
+}
+
+.admin-dashboard .dispo-listing .dropdown-menu .btn-link {
+  color: #009ec0;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0.075rem 1.55rem;
+}
+/*# sourceMappingURL=Dashboard.css.map */

@@ -1,0 +1,273 @@
+.agent-chat {
+  margin: 0 -24px -27px -24px;
+}
+
+.agent-chat .agent-list-col {
+  width: 277px;
+  padding: 0;
+  height: calc(100vh - 96px);
+}
+
+.agent-chat .agent-list-col .agent-search {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.agent-chat .agent-list-col .agent-search .form-control {
+  padding: 0.4rem 0.75rem 0.475rem 2.4rem;
+  border: 2px solid #eaeaea;
+}
+
+.agent-chat .agent-list-col .agent-search .search-icon {
+  position: absolute;
+  top: 15px;
+  left: 31px;
+}
+
+.agent-chat .agent-list-col .agent-name-list {
+  height: calc(100vh - 156px);
+  overflow-y: scroll;
+}
+
+.agent-chat .agent-list-col .agent-name-list .agent-list-box {
+  padding: 17px 10px 17px 17px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.agent-chat .agent-list-col .agent-name-list .agent-list-box:hover {
+  background-color: #e2f8fd;
+  cursor: pointer;
+}
+
+.agent-chat .agent-list-col .agent-name-list .agent-list-box.agent-active {
+  background-color: #e2f8fd;
+}
+
+.agent-chat .agent-list-col .agent-name-list .agent-list-box .msg-status {
+  display: inline-block;
+  width: 22px;
+  position: relative;
+  top: -5px;
+}
+
+.agent-chat .agent-list-col .agent-name-list .agent-list-box .msg-hint {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 152px;
+}
+
+.agent-chat .agent-chat-main-col {
+  width: calc(100% - 554px);
+  padding: 0;
+}
+
+.agent-chat .agent-chat-main-col .chat-popup a {
+  font-size: 16px;
+  color: #009ec0;
+  font-weight: bold;
+  margin: 0 13px;
+}
+
+.agent-chat .agent-chat-main-col .chat-popup a:last-child {
+  margin: 0 0 0 13px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail {
+  border: 2px solid #d7d7d7;
+  height: calc(100vh - 220px);
+  overflow-x: auto;
+  padding: 10px 20px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .time-history {
+  margin-bottom: 10px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .time-history span {
+  color: #ffffff;
+  background-color: #cbcbcb;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 3px 10px 2px 10px;
+  border-radius: 3px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user {
+  margin-bottom: 20px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user .chat-wrap {
+  display: inline-block;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user .chat-wrap .chat-text {
+  background-color: #dff9ca;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  font-size: 17px;
+  color: #000000;
+  border-radius: 40px 40px 0 40px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user .chat-wrap .chat-text svg {
+  margin: 0 10px 0 10px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user .chat-wrap .time-stamp {
+  font-size: 12px;
+  color: #999999;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-user .chat-wrap .time-stamp svg {
+  margin: 0 0 0 10px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay {
+  margin-bottom: 20px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay .chat-wrap {
+  display: inline-block;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay .chat-wrap .chat-text {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  font-size: 17px;
+  color: #000000;
+  border-radius: 40px 40px 40px 0px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay .chat-wrap .chat-text svg {
+  margin: 0 10px 0 10px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay .chat-wrap .time-stamp {
+  font-size: 12px;
+  color: #999999;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-detail .chat-replay .chat-wrap .time-stamp svg {
+  margin: 0 0 0 10px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-type {
+  height: 84px;
+  background-color: #e6e4e5;
+  padding: 16px 30px;
+  position: relative;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-type .form-control {
+  border: 0;
+  font-size: 16px;
+  color: #000000;
+  padding: 15px 50px 15px 50px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-type .agent-chat-emogi {
+  position: absolute;
+  top: 29px;
+  left: 50px;
+}
+
+.agent-chat .agent-chat-main-col .agent-chat-type .agent-chat-send {
+  position: absolute;
+  top: 29px;
+  right: 50px;
+}
+
+.agent-chat .agent-chat-info-col {
+  width: 277px;
+  background: #f4f6f8;
+  padding: 0;
+  height: calc(100vh - 96px);
+  overflow-x: auto;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-data h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-data h4 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #505050;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .agent-chat-tab-wrap {
+  display: inline-block;
+  background-color: #dadada;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .nav-pills {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .nav-pills .nav-link {
+  padding: .3rem 1.3rem;
+  border-radius: 7px;
+  color: #505050;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .nav-pills .nav-link.active {
+  background-color: #ffffff;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-item {
+  background-color: transparent;
+  border: 0;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-button {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-button:after {
+  display: none;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-button.collapsed .disposition-row {
+  border-bottom: 2px dashed #dddddd;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-body .dispositions-body {
+  font-size: 12px;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .accordion-body .dispositions-body .btn-light {
+  color: #505050;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  font-size: 12px;
+  padding: 0.435rem 1rem;
+  border-radius: 30px;
+  font-weight: normal;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .disposition-row {
+  width: 100%;
+  border-bottom: 0;
+}
+
+.agent-chat .agent-chat-info-col .agent-chat-tab .tab-pane .white-bg {
+  border-radius: 3px;
+}
+/*# sourceMappingURL=Agent.css.map */
